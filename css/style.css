@@ -1,0 +1,30 @@
+body{
+	font-family: 'Playfair Display', serif;
+}
+header{
+	padding: 40px 0;
+}
+.navbar_custom{
+	padding: 0.5rem 0rem;
+}
+.manu ul li a {
+    font-weight: 400;
+    color: #626262 !important;
+    padding: 0 60px !important;
+    text-align: right;
+    transition: .5s;
+}
+.manu ul li:last-child a{
+	padding-right: 0px !important;
+}
+.manu ul li a:hover{
+	color: #000000;
+}
+.carousel_custom{
+	bottom: -5px;
+}
+.carousel_custom li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
